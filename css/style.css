@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 body {
     font-family: "Roboto", sans-serif;
@@ -28,6 +28,11 @@ header h1 {
 header #logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 
 main h2 {
