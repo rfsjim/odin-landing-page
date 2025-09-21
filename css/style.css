@@ -1,4 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --doger-blue: #3882f6;
+    --solitude: #e5e7eb;;
+    --midnight-express: #1f2937;
+    --black-squeeze: #f9faf8;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -7,27 +14,27 @@ body {
 }
 
 button, .call-to-action {
-    background-color: #3882f6;
+    background-color: var(--doger-blue);
 }
 
 header {
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--solitude);
 }
 
 header, footer {
-    background-color: #1f2937;
+    background-color: var(--midnight-express);
 }
 
 header h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: var(--black-squeeze);
 }
 
 header #logo {
     font-size: 24px;
-    color: #f9faf8;
+    color: var(--black-squeeze);
 }
 
 main {
@@ -37,13 +44,13 @@ main {
 
 main h2 {
     font-size: 36px;
-    color: #1f2937;
+    color: var(--midnight-express);
     font-weight: 900;
 }
 
 q {
-    background-color: #e5e7eb;
-    color: #1f2937;
+    background-color: var(--solitude);
+    color: var(--midnight-express);
     font-size: 36px;
     font-weight: 300;
 }
